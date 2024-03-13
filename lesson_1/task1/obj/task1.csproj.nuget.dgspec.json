@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "F:\\учеба\\1_Csharp\\01_CSHARP-1\\lesson_1\\task1\\task1.csproj": {}
+    "F:\\учеба\\01_CSHARP\\01_CSHARP\\lesson_1\\task1\\task1.csproj": {}
   },
   "projects": {
-    "F:\\учеба\\1_Csharp\\01_CSHARP-1\\lesson_1\\task1\\task1.csproj": {
+    "F:\\учеба\\01_CSHARP\\01_CSHARP\\lesson_1\\task1\\task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\учеба\\1_Csharp\\01_CSHARP-1\\lesson_1\\task1\\task1.csproj",
+        "projectUniqueName": "F:\\учеба\\01_CSHARP\\01_CSHARP\\lesson_1\\task1\\task1.csproj",
         "projectName": "task1",
-        "projectPath": "F:\\учеба\\1_Csharp\\01_CSHARP-1\\lesson_1\\task1\\task1.csproj",
+        "projectPath": "F:\\учеба\\01_CSHARP\\01_CSHARP\\lesson_1\\task1\\task1.csproj",
         "packagesPath": "C:\\Users\\п\\.nuget\\packages\\",
-        "outputPath": "F:\\учеба\\1_Csharp\\01_CSHARP-1\\lesson_1\\task1\\obj\\",
+        "outputPath": "F:\\учеба\\01_CSHARP\\01_CSHARP\\lesson_1\\task1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\п\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\п\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
