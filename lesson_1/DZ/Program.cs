@@ -7,5 +7,6 @@ int product = a * b;
 int sum = c + d;
 Console.WriteLine(product); 
 Console.WriteLine(sum); 
-double quotient = product / sum;
-Console.WriteLine(quotient); 
+
+double quotient = (product / sum);
+Console.WriteLine((double)product / sum);
