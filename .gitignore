@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # Гонщик JetBrains
 *.sln.iml
+
+zadachi/Program.cs
+zadachi/bin/Debug/net8.0/zadachi.deps.json
+zadachi/bin/Debug/net8.0/zadachi.dll
+ zadachi/bin/Debug/net8.0/zadachi.exe
+ zadachi/bin/Debug/net8.0/zadachi.runtimeconfig.json
+      zadachi/zadachi.csproj
