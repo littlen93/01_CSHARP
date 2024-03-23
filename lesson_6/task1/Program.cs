@@ -1,4 +1,6 @@
-﻿double CalculateFormula(int a, int b, int c, int d)
+﻿// Решить уравнение (a*b)/(c+d)
+
+double CalculateFormula(int a, int b, int c, int d)
 {
     double numinator = a * b;
     int denominator = c + d;
