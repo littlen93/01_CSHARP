@@ -51,3 +51,4 @@ int[] newArray =  CreateArray();
 FillingArray(newArray);
 PrintArray(newArray);
 Console.WriteLine("Строчка "+GetNumInArray(newArray));
+
