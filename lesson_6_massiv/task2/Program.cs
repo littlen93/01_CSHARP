@@ -1,15 +1,22 @@
-﻿// возвести в квадрат до 5,до 10 и до 15
+﻿// Задайте массив из 10 элементов, заполненный числами из
+// промежутка [-10, 10]. Замените отрицательные элементы на
+// положительные, а положительные на отрицательные.
+// Пример
+// [1 -5 6]
+// => [-1 5 -6]
 
-void PrintSquares (int limit)
+int[] array = new int[10];
+
+for (int i = 0; i < array.Length; i++)
 {
-    int i = 1;
-    while( i<=limit)
-    {
-        System.Console.Write($"{i*i} ");
-        i++;
-    }
-
+    array[i] = new Random().Next(-10,11);
+    Console.Write(array[i]+"\t");
 }
-PrintSquares(5);
-PrintSquares(10);
-PrintSquares(15);
+
+Console.WriteLine();
+
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = -1*array[i];
+    Console.Write(array[i]+"\t");
+}

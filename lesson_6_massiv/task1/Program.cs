@@ -1,12 +1,27 @@
-﻿// Решить уравнение (a*b)/(c+d)
+﻿// Задайте массив. Напишите программу, которая определяет,
+// присутствует ли заданное число в массиве. Программа
+// должна выдать ответ: Да/Нет.
+// Примеры
+// [1 3 4 19 3], 8 => Нет
+// [-4 3 4 1], 3 => Да 
 
-double CalculateFormula(int a, int b, int c, int d)
+
+Console.WriteLine("Введите число которое нужно обнаружить");
+int num = Convert.ToInt32(Console.ReadLine());
+
+int[] array = new int[9];
+string isFind= "Нет";
+
+for (int i = 0; i < array.Length; i++)
 {
-    double numinator = a * b;
-    int denominator = c + d;
-    double result = numinator / denominator;
-    return result;
+    array[i] = new Random().Next(1,20);
+    Console.Write(array[i]+" ");
+
+    if(array[i] == num)
+    {
+        isFind="Да";
+    }
 }
 
-double result = CalculateFormula(1, 2, 3, 4);
-System.Console.WriteLine(result);
+Console.WriteLine(isFind);
+
