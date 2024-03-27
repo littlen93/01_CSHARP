@@ -3,20 +3,25 @@
 //  а потом пользователь должен сам заполнить необходимую информацию.
 // В конце вывод всех элементов в столбик
 
-Console.Write("Введите количество элементов: ");
-int input = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите текст: ");
-string text = Console.ReadLine();
+
+Console.Write("Сколько контактов вы хотите внести: ");
+int count = Convert.ToInt32(Console.ReadLine());
 
 
-for (int i = 0; i < input; i++)
+Console.Write("Введите имя: ");
+string name = Console.ReadLine();
+
+Console.Write("Введите номер телефона: ");
+string tel = Console.ReadLine();
+
+string[] book = new string[count];
+
+for (int i = 0; i < book.Length; i++)
 {
-    System.Console.WriteLine(text[i]);
-
+    book[i] = Console.ReadLine();
 }
-for (int i = 0; i > input; i++)
+
+for (int i = 0; i < book.Length; i++)
 {
-
-    System.Console.Write("Вы привысили количество вводимых элементов");
+    System.Console.Write(book[book.Length]);
 }
-
