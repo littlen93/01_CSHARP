@@ -6,22 +6,23 @@
 
 Console.Write("Сколько контактов вы хотите внести: ");
 int count = Convert.ToInt32(Console.ReadLine());
-
-
-Console.Write("Введите имя: ");
-string name = Console.ReadLine();
-
-Console.Write("Введите номер телефона: ");
-string tel = Console.ReadLine();
-
 string[] book = new string[count];
 
 for (int i = 0; i < book.Length; i++)
 {
-    book[i] = Console.ReadLine();
+    Console.Write("Введите имя: ");
+    string name = Console.ReadLine();
+
+    Console.Write("Введите номер телефона: ");
+    string tel = Console.ReadLine();
+
+
+   book[i]= ($"{name} {tel}") ;
 }
 
 for (int i = 0; i < book.Length; i++)
 {
-    System.Console.Write(book[book.Length]);
+    
+    Console.Write("\n"+ book[i]);
 }
+
