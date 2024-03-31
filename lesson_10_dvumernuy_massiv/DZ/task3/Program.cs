@@ -26,40 +26,41 @@ void Printnumbers() //вывод массива
 
 int[] SumRows(int[,] array)
 {
-    int[] sums = new int[numbers.GetLength(1)];
+    int[] sums = new int[numbers.GetLength(0)];
 
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            sums[i] += numbers[0, j];
+            sums[i] += numbers[i,j];
 
         }
     }
     return sums;
 }
-System.Console.WriteLine(SumRows);
+
 
 int MinIndex(int[] array)                        // Получение индекса минимального элемента в одномерном массиве
 {
     int min = array[0];
+    int MinIndex = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] < min)
         {
-            min = array[i];
+            MinIndex = i;
         }
 
     }
-    return min;
+    return MinIndex;
 }
-
 
 
 void PrintResult(int[,] numbers)
 {
-
-
+    int[] sums = SumRows(numbers);
+    System.Console.WriteLine(MinIndex(sums));
 }
 
+PrintResult(numbers);
 
