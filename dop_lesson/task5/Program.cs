@@ -79,4 +79,8 @@ int[,] DeleteItems(int[,] number, int[]index)
     return newArray;
 }
 
-PrintArray(DeleteItems(numbers, FindMinValue(numbers)));
+// PrintArray(DeleteItems(numbers, FindMinValue(numbers))); можно вызвать и так
+
+int[] arrayIndex = FindMinValue(numbers);                   //создаем новый массив чтобы его потом вызвать?передаем в него наш исходный массив
+int[,] newArray = DeleteItems(numbers, arrayIndex);         //создаем двумерный массив чтобы вызвать функцию,передаем в него двумерный исходный массив и одномерный который создали только что
+PrintArray(newArray);                                       // передаем в функцию итоговый массив который создали 
