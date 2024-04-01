@@ -1,0 +1,15 @@
+﻿// возвести в квадрат до 5,до 10 и до 15
+
+void PrintSquares (int limit)
+{
+    int i = 1;
+    while( i<=limit)
+    {
+        System.Console.Write($"{i*i} ");
+        i++;
+    }
+
+}
+PrintSquares(5);
+PrintSquares(10);
+PrintSquares(15);

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "task2_оформление_двум_массива_в_виде_функции/1.0.0": {
+        "runtime": {
+          "task2_оформление_двум_массива_в_виде_функции.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "task2_оформление_двум_массива_в_виде_функции/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
