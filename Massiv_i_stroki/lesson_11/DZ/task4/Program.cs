@@ -3,8 +3,12 @@
 // в которой слова расположены в обратном порядке. В
 // полученной строке слова должны быть также разделены
 // пробелами.
+System.Console.WriteLine("Введите строку");
+string input=Console.ReadLine();
 
-string[] array = new string [] {"Hello","My","World"};
+string[] array = input.Split(" ");
+
+
 
 for (int i = array.Length-1; i >= 0; i--)
 {
